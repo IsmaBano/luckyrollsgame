@@ -1,0 +1,48 @@
+.container{
+    display: flex;
+    max-height:575px;
+    max-width:95%;
+    padding: 5%;
+    justify-content: center;
+    text-align: center;
+    color:white;
+    background-image: url("../assets/3d-dice.jpg");
+    background-size:contain;
+    }
+    .container2{
+        width:45%;
+        height:500px;
+        padding: 30px;
+        background: linear-gradient(1deg, rgba(80, 155, 195, 1) 0%, rgba(2, 32, 67, 1) 53%);
+        font-weight: bold;
+        justify-items: center;
+        text-align: center;
+    }
+    .container2 h1{
+        font:bold;
+        font-size: 80px;
+    }
+    
+    .container2 button{
+        background-color:#0a0a23;
+        color: #fff;
+        margin:5%;
+        font-weight: bold;
+        font-size: 30px;
+        border-radius:15px; 
+        padding:15px;
+        min-height:75px; 
+        width: 200px;
+    }
+    .container2 button:hover{
+        background-color: transparent;
+    }
+    @media (max-width:500px) {
+        .container2 h1{
+            font-size: 60px;
+        }
+        .container2 button{
+            width:130px;
+        }
+    }
+    

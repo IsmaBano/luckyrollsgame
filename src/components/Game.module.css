@@ -1,0 +1,51 @@
+.game{
+    background: linear-gradient(1deg,  rgba(2, 32, 67, 1) 0%,rgba(80, 155, 195, 1) 53%);
+}
+.box{
+    height:450px;
+    width:100%;
+    padding-top:20px;
+    display: flex;
+   justify-content: center;
+   
+}
+.box img{
+    height:200px;
+    width:200px;
+    margin-top:5px;
+    background-size: cover;
+}
+.box h3{
+    text-align: center;
+}
+.box button{
+    background-color:#0a0a23;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 100;
+    border-radius:15px; 
+    padding:15px;
+    height:75px; 
+    width: 200px;
+    margin-top:5px;
+}
+.box button:hover{
+    background-color: transparent;
+}
+.rulebox{
+ display:flex;
+ justify-content: center;
+}
+.rules{
+    width: 500px;
+    height:150px;
+    padding: 10px;
+    color:rgb(187, 41, 41);
+    background-color: rgba(2, 32, 67, 1);
+}
+.rules h2 {
+    text-align: center;
+}
+.notvisible{
+  visibility: hidden;
+}
